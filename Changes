@@ -6,7 +6,6 @@ Revision history for Task-BeLike-CSSON
  [Bug Fixes]
 
  [Documentation]
- - What needs to be done before installation
 
  [Enhancements]
 
@@ -15,6 +14,10 @@ Revision history for Task-BeLike-CSSON
  [New Features]
 
  [Revision]
+
+0.0003 2014-11-29T20:37:03Z CET
+ [Documentation]
+ - What needs to be done before installation
 
 0.0002 2014-11-29T17:16:23Z CET
  [Bug Fixes]
