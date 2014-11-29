@@ -43,7 +43,6 @@
             "CAM::PDF" : "0",
             "CLI::Helpers" : "0",
             "Class::XSAccessor" : "0",
-            "Config::Find" : "0",
             "Config::Hash" : "0",
             "Config::JSON" : "0",
             "Config::MVP" : "0",
@@ -64,7 +63,6 @@
             "Dist::Zilla" : "0",
             "Dist::Zilla::Plugin::Authority" : "0",
             "Dist::Zilla::Plugin::ChangeStats::Git" : "0",
-            "Dist::Zilla::Plugin::CompileTests" : "0",
             "Dist::Zilla::Plugin::EOLTests" : "0",
             "Dist::Zilla::Plugin::Git" : "0",
             "Dist::Zilla::Plugin::MinimumPerlFast" : "0",
@@ -78,7 +76,6 @@
             "Dist::Zilla::PluginBundle::DOY" : "0",
             "Dist::Zilla::PluginBundle::FLORA" : "0",
             "Dist::Zilla::Role::PluginBundle::PluginRemover" : "0",
-            "Dist::Zilla::TravisCI" : "0",
             "Dist::Zilla::Util::ExpandINI" : "0",
             "Eponymous::Hash" : "0",
             "Exception::Class" : "0",
@@ -110,7 +107,6 @@
             "PDF::API2" : "0",
             "PPI::HTML" : "0",
             "Perl::Critic" : "0",
-            "PerlMagick" : "0",
             "Pod::Weaver::Section::SeeAlso" : "0",
             "Redis::Fast" : "0",
             "Regexp::Grammars" : "0",
@@ -122,7 +118,6 @@
             "Syntax::Collector" : "0",
             "Term::ANSIColor" : "0",
             "Term::ReadLine::Gnu" : "0",
-            "Term::TermKey" : "0",
             "Test::Manifest" : "0",
             "Test::Pod" : "0",
             "Test::Trap" : "0",
@@ -150,6 +145,6 @@
          "web" : "https://github.com/Csson/p5-Task-BeLike-CSSON"
       }
    },
-   "version" : "0.0001"
+   "version" : "0.0002"
 }
 
