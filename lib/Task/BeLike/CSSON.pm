@@ -1,5 +1,5 @@
-package Task::BeLike::CSSON;
-$Task::BeLike::CSSON::VERSION = '0.0002';
+package Task::BeLike::CSSON { }
+
 1;
 __END__
 
@@ -10,8 +10,25 @@ __END__
 Task::BeLike::CSSON - Stuff I need
 
 =head1 SYNOPSIS
+    
+    # or equivalent
+    $ sudo apt-get install libssl-dev
+    $ sudo apt-get install libgd2-xpm-dev
+    $ sudo apt-get install ncurses-dev
+    $ sudo apt-get install libreadline6 libreadline6-dev
+    
+    $ git config --global user.email '...'
+    $ git config --global user.name '...'
 
-  $ cpanm Task::BeLike::CSSON
+    # install mysql/mariadb, and
+    $ export DBD_TESTUSER=...
+    $ export DBD_TESTPASSWORD=...
+    $ export DBD_TESTDB=...
+
+    $ cpanm Class::Accessor
+    $ cpanm Devel::Declare::MethodInstaller::Simple
+    $ cpanm Compiler::Lexer
+    $ cpanm Task::BeLike::CSSON
 
 =head1 TASK CONTENTS
 
