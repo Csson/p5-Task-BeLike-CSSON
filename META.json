@@ -1,0 +1,155 @@
+{
+   "abstract" : "Stuff I need",
+   "author" : [
+      "Erik Carlsson <info@code301.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BeLike-CSSON",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Archive::Tar::Wrapper" : "0",
+            "Authen::Passphrase" : "0",
+            "CAM::PDF" : "0",
+            "CLI::Helpers" : "0",
+            "Class::XSAccessor" : "0",
+            "Config::Find" : "0",
+            "Config::Hash" : "0",
+            "Config::JSON" : "0",
+            "Config::MVP" : "0",
+            "Curses::UI" : "0",
+            "DBD::mysql" : "0",
+            "DBI" : "0",
+            "DBIx::Class" : "0",
+            "DBIx::Class::Candy" : "0",
+            "DBIx::Class::Helpers" : "0",
+            "DBIx::Class::InflateColumn::DateTime::Duration" : "0",
+            "DBIx::Class::Migration" : "0",
+            "DBIx::Class::PassphraseColumn" : "0",
+            "Data::Dump::Streamer" : "0",
+            "Data::GUID" : "0",
+            "Data::UUID" : "0",
+            "DateTime" : "0",
+            "Dist::Milla" : "0",
+            "Dist::Zilla" : "0",
+            "Dist::Zilla::Plugin::Authority" : "0",
+            "Dist::Zilla::Plugin::ChangeStats::Git" : "0",
+            "Dist::Zilla::Plugin::CompileTests" : "0",
+            "Dist::Zilla::Plugin::EOLTests" : "0",
+            "Dist::Zilla::Plugin::Git" : "0",
+            "Dist::Zilla::Plugin::MinimumPerlFast" : "0",
+            "Dist::Zilla::Plugin::NextVersion::Semantic" : "0",
+            "Dist::Zilla::Plugin::Test::EOL" : "0",
+            "Dist::Zilla::Plugin::Test::NoTabs" : "0",
+            "Dist::Zilla::Plugin::Test::TrailingSpace" : "0",
+            "Dist::Zilla::Plugin::UploadToStratopan" : "0",
+            "Dist::Zilla::PluginBundle::Author::XENO" : "0",
+            "Dist::Zilla::PluginBundle::DAGOLDEN" : "0",
+            "Dist::Zilla::PluginBundle::DOY" : "0",
+            "Dist::Zilla::PluginBundle::FLORA" : "0",
+            "Dist::Zilla::Role::PluginBundle::PluginRemover" : "0",
+            "Dist::Zilla::TravisCI" : "0",
+            "Dist::Zilla::Util::ExpandINI" : "0",
+            "Eponymous::Hash" : "0",
+            "Exception::Class" : "0",
+            "File::ReadBackwards" : "0",
+            "GD" : "0",
+            "Games::2048" : "0",
+            "Kavorka" : "0",
+            "Lexical::Var" : "0",
+            "List::AllUtils" : "0",
+            "Math::Round" : "0",
+            "MetaCPAN::Clients" : "0",
+            "Method::Signatures" : "0",
+            "Minilla" : "0",
+            "Modern::Perl" : "0",
+            "Mojolicious" : "0",
+            "Mojolicious::Plugin::Authorization" : "0",
+            "MooX::HandlesVia" : "0",
+            "Moops" : "0",
+            "Moose" : "0",
+            "MooseX::Aliases" : "0",
+            "MooseX::App" : "0",
+            "MooseX::App::Cmd" : "0",
+            "MooseX::Getopt" : "0",
+            "MooseX::NonMoose" : "0",
+            "MooseX::Object::Pluggable" : "0",
+            "MooseX::Types" : "0",
+            "MooseX::XSAccessor" : "0",
+            "Net::Twitter" : "0",
+            "PDF::API2" : "0",
+            "PPI::HTML" : "0",
+            "Perl::Critic" : "0",
+            "PerlMagick" : "0",
+            "Pod::Weaver::Section::SeeAlso" : "0",
+            "Redis::Fast" : "0",
+            "Regexp::Grammars" : "0",
+            "SQL::Translator" : "0",
+            "String::Markov" : "0",
+            "String::Random" : "0",
+            "String::Trim" : "0",
+            "Syntax::Collection::Basic" : "0",
+            "Syntax::Collector" : "0",
+            "Term::ANSIColor" : "0",
+            "Term::ReadLine::Gnu" : "0",
+            "Term::TermKey" : "0",
+            "Test::Manifest" : "0",
+            "Test::Pod" : "0",
+            "Test::Trap" : "0",
+            "Test::mysqld" : "0",
+            "Throwable::X" : "0",
+            "ToolSet" : "0",
+            "Type::Tiny" : "0",
+            "Type::Tiny::XS" : "0",
+            "Types::URI" : "0",
+            "URI::Find" : "0",
+            "Variable::Magic" : "0",
+            "experimental" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Task-BeLike-CSSON/issues"
+      },
+      "homepage" : "https://github.com/Csson/p5-Task-BeLike-CSSON",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Task-BeLike-CSSON.git",
+         "web" : "https://github.com/Csson/p5-Task-BeLike-CSSON"
+      }
+   },
+   "version" : "0.0001"
+}
+
