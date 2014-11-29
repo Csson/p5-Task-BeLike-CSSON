@@ -1,5 +1,5 @@
 package Task::BeLike::CSSON;
-
+$Task::BeLike::CSSON::VERSION = '0.0002';
 1;
 __END__
 
