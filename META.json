@@ -24,24 +24,13 @@
       ]
    },
    "prereqs" : {
-      "configure" : {
-         "requires" : {
-            "Module::Build::Tiny" : "0.039"
-         }
-      },
-      "develop" : {
-         "requires" : {
-            "Test::More" : "0",
-            "Test::NoTabs" : "0",
-            "Test::Pod" : "1.41"
-         }
-      },
-      "runtime" : {
+      "build" : {
          "requires" : {
             "Archive::Tar::Wrapper" : "0",
             "Authen::Passphrase" : "0",
             "CAM::PDF" : "0",
             "CLI::Helpers" : "0",
+            "CPAN::Changes" : "0",
             "Class::XSAccessor" : "0",
             "Config::Hash" : "0",
             "Config::JSON" : "0",
@@ -67,6 +56,7 @@
             "Dist::Zilla::Plugin::Git" : "0",
             "Dist::Zilla::Plugin::MinimumPerlFast" : "0",
             "Dist::Zilla::Plugin::NextVersion::Semantic" : "0",
+            "Dist::Zilla::Plugin::Test::EOF" : "0",
             "Dist::Zilla::Plugin::Test::EOL" : "0",
             "Dist::Zilla::Plugin::Test::NoTabs" : "0",
             "Dist::Zilla::Plugin::Test::TrailingSpace" : "0",
@@ -82,6 +72,7 @@
             "File::ReadBackwards" : "0",
             "GD" : "0",
             "Games::2048" : "0",
+            "IO::Scalar" : "0",
             "Kavorka" : "0",
             "Lexical::Var" : "0",
             "List::AllUtils" : "0",
@@ -90,6 +81,7 @@
             "Method::Signatures" : "0",
             "Minilla" : "0",
             "Modern::Perl" : "0",
+            "Module::CPANfile" : "0",
             "Mojolicious" : "0",
             "Mojolicious::Plugin::Authorization" : "0",
             "MooX::HandlesVia" : "0",
@@ -107,9 +99,11 @@
             "PDF::API2" : "0",
             "PPI::HTML" : "0",
             "Perl::Critic" : "0",
+            "Pod::Markdown" : "0",
             "Pod::Weaver::Section::SeeAlso" : "0",
             "Redis::Fast" : "0",
             "Regexp::Grammars" : "0",
+            "Reindeer" : "0",
             "SQL::Translator" : "0",
             "String::Markov" : "0",
             "String::Random" : "0",
@@ -131,6 +125,18 @@
             "Variable::Magic" : "0",
             "experimental" : "0"
          }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41"
+         }
       }
    },
    "release_status" : "stable",
@@ -145,6 +151,6 @@
          "web" : "https://github.com/Csson/p5-Task-BeLike-CSSON"
       }
    },
-   "version" : "0.0002"
+   "version" : "0.0003"
 }
 

@@ -10,13 +10,13 @@ __END__
 Task::BeLike::CSSON - Stuff I need
 
 =head1 SYNOPSIS
-    
+
     # or equivalent
     $ sudo apt-get install libssl-dev
     $ sudo apt-get install libgd2-xpm-dev
     $ sudo apt-get install ncurses-dev
     $ sudo apt-get install libreadline6 libreadline6-dev
-    
+
     $ git config --global user.email '...'
     $ git config --global user.name '...'
 
