@@ -3,8 +3,8 @@ use warnings;
 
 package Task::BeLike::CSSON { }
 
-# ABSTRACT: Be like...
 # VERSION
+# ABSTRACT: Be like...
 
 1;
 
