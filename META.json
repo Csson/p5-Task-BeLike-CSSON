@@ -1,10 +1,10 @@
 {
-   "abstract" : "Stuff I need",
+   "abstract" : "Be like...",
    "author" : [
       "Erik Carlsson <info@code301.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "Dist::Zilla version 5.042, Dist::Iller version 0.1203, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -15,16 +15,83 @@
    "name" : "Task-BeLike-CSSON",
    "no_index" : {
       "directory" : [
-         "t",
-         "xt",
+         "eg",
+         "examples",
          "inc",
          "share",
-         "eg",
-         "examples"
+         "t",
+         "xt"
       ]
    },
    "prereqs" : {
-      "build" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Dist::Zilla::Plugin::CheckChangesHasContent" : "0",
+            "Dist::Zilla::Plugin::CheckExtraTests" : "0",
+            "Dist::Zilla::Plugin::Clean" : "0",
+            "Dist::Zilla::Plugin::ConfirmRelease" : "0",
+            "Dist::Zilla::Plugin::CopyFilesFromBuild" : "0",
+            "Dist::Zilla::Plugin::DistIller::MetaGeneratedBy" : "0",
+            "Dist::Zilla::Plugin::ExecDir" : "0",
+            "Dist::Zilla::Plugin::Git::Check" : "0",
+            "Dist::Zilla::Plugin::Git::Contributors" : "0",
+            "Dist::Zilla::Plugin::Git::GatherDir" : "0",
+            "Dist::Zilla::Plugin::Git::Push" : "0",
+            "Dist::Zilla::Plugin::Git::Tag" : "0",
+            "Dist::Zilla::Plugin::GithubMeta" : "0",
+            "Dist::Zilla::Plugin::InstallRelease" : "0",
+            "Dist::Zilla::Plugin::License" : "0",
+            "Dist::Zilla::Plugin::MakeMaker" : "0",
+            "Dist::Zilla::Plugin::Manifest" : "0",
+            "Dist::Zilla::Plugin::ManifestSkip" : "0",
+            "Dist::Zilla::Plugin::MetaJSON" : "0",
+            "Dist::Zilla::Plugin::MetaNoIndex" : "0",
+            "Dist::Zilla::Plugin::MetaProvides::Class" : "0",
+            "Dist::Zilla::Plugin::MetaProvides::Package" : "0",
+            "Dist::Zilla::Plugin::MetaYAML" : "0",
+            "Dist::Zilla::Plugin::NextRelease" : "0",
+            "Dist::Zilla::Plugin::NextVersion::Semantic" : "0",
+            "Dist::Zilla::Plugin::OurPkgVersion" : "0",
+            "Dist::Zilla::Plugin::PodSyntaxTests" : "0",
+            "Dist::Zilla::Plugin::PodnameFromClassname" : "0",
+            "Dist::Zilla::Plugin::Prereqs" : "0",
+            "Dist::Zilla::Plugin::Prereqs::Plugins" : "0",
+            "Dist::Zilla::Plugin::PreviousVersion::Changelog" : "0",
+            "Dist::Zilla::Plugin::Readme" : "0",
+            "Dist::Zilla::Plugin::ReadmeAnyFromPod" : "0",
+            "Dist::Zilla::Plugin::ReversionOnRelease" : "0",
+            "Dist::Zilla::Plugin::RunExtraTests" : "0",
+            "Dist::Zilla::Plugin::ShareDir" : "0",
+            "Dist::Zilla::Plugin::TaskWeaver" : "0",
+            "Dist::Zilla::Plugin::Test::ReportPrereqs" : "0",
+            "Dist::Zilla::Plugin::TestRelease" : "0",
+            "Dist::Zilla::Plugin::TravisYML" : "0",
+            "Dist::Zilla::Plugin::UploadToCPAN" : "0",
+            "Pod::Elemental::Transformer::List" : "0",
+            "Pod::Weaver::Plugin::SingleEncoding" : "0",
+            "Pod::Weaver::Plugin::Transformer" : "0",
+            "Pod::Weaver::PluginBundle::CorePrep" : "0",
+            "Pod::Weaver::Section::Authors" : "0",
+            "Pod::Weaver::Section::Badges" : "0",
+            "Pod::Weaver::Section::Collect" : "0",
+            "Pod::Weaver::Section::Generic" : "0",
+            "Pod::Weaver::Section::Homepage::DefaultCPAN" : "0",
+            "Pod::Weaver::Section::Leftovers" : "0",
+            "Pod::Weaver::Section::Legal" : "0",
+            "Pod::Weaver::Section::Name" : "0",
+            "Pod::Weaver::Section::Region" : "0",
+            "Pod::Weaver::Section::Source::DefaultGitHub" : "0",
+            "Pod::Weaver::Section::Version" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Warnings" : "0"
+         }
+      },
+      "runtime" : {
          "requires" : {
             "Archive::Tar::Wrapper" : "0",
             "Authen::Passphrase" : "0",
@@ -35,20 +102,26 @@
             "Config::Hash" : "0",
             "Config::JSON" : "0",
             "Config::MVP" : "0",
+            "Crypt::Eksblowfish" : "0",
             "Curses::UI" : "0",
             "DBD::mysql" : "0",
             "DBI" : "0",
             "DBIx::Class" : "0",
             "DBIx::Class::Candy" : "0",
+            "DBIx::Class::EncodedColumn" : "0",
             "DBIx::Class::Helpers" : "0",
             "DBIx::Class::InflateColumn::DateTime::Duration" : "0",
+            "DBIx::Class::InflateColumn::DateTime::WithTimeZone" : "0",
             "DBIx::Class::Migration" : "0",
-            "DBIx::Class::PassphraseColumn" : "0",
             "Data::Dump::Streamer" : "0",
             "Data::GUID" : "0",
+            "Data::Perl" : "0",
             "Data::UUID" : "0",
+            "Data::Visitor::Callback" : "0",
             "DateTime" : "0",
-            "Dist::Milla" : "0",
+            "DateTime::Tiny" : "0",
+            "Dist::Iller" : "0",
+            "Dist::Iller::Config::Author::CSSON" : "0",
             "Dist::Zilla" : "0",
             "Dist::Zilla::Plugin::Authority" : "0",
             "Dist::Zilla::Plugin::ChangeStats::Git" : "0",
@@ -61,10 +134,6 @@
             "Dist::Zilla::Plugin::Test::NoTabs" : "0",
             "Dist::Zilla::Plugin::Test::TrailingSpace" : "0",
             "Dist::Zilla::Plugin::UploadToStratopan" : "0",
-            "Dist::Zilla::PluginBundle::Author::XENO" : "0",
-            "Dist::Zilla::PluginBundle::DAGOLDEN" : "0",
-            "Dist::Zilla::PluginBundle::DOY" : "0",
-            "Dist::Zilla::PluginBundle::FLORA" : "0",
             "Dist::Zilla::Role::PluginBundle::PluginRemover" : "0",
             "Dist::Zilla::Util::ExpandINI" : "0",
             "Eponymous::Hash" : "0",
@@ -72,6 +141,7 @@
             "File::ReadBackwards" : "0",
             "GD" : "0",
             "Games::2048" : "0",
+            "IO::Interactive" : "0",
             "IO::Scalar" : "0",
             "Kavorka" : "0",
             "Lexical::Var" : "0",
@@ -95,6 +165,7 @@
             "MooseX::Object::Pluggable" : "0",
             "MooseX::Types" : "0",
             "MooseX::XSAccessor" : "0",
+            "Net::OAuth" : "0",
             "Net::Twitter" : "0",
             "PDF::API2" : "0",
             "PPI::HTML" : "0",
@@ -123,20 +194,25 @@
             "Types::URI" : "0",
             "URI::Find" : "0",
             "Variable::Magic" : "0",
-            "experimental" : "0"
+            "experimental" : "0",
+            "perl" : "5.014000"
          }
       },
-      "configure" : {
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
          "requires" : {
-            "Module::Build::Tiny" : "0.039"
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec" : "0",
+            "Test::More" : "0.96"
          }
-      },
-      "develop" : {
-         "requires" : {
-            "Test::More" : "0",
-            "Test::NoTabs" : "0",
-            "Test::Pod" : "1.41"
-         }
+      }
+   },
+   "provides" : {
+      "Task::BeLike::CSSON" : {
+         "file" : "lib/Task/BeLike/CSSON.pm",
+         "version" : "0.0004"
       }
    },
    "release_status" : "stable",
@@ -144,13 +220,13 @@
       "bugtracker" : {
          "web" : "https://github.com/Csson/p5-Task-BeLike-CSSON/issues"
       },
-      "homepage" : "https://github.com/Csson/p5-Task-BeLike-CSSON",
+      "homepage" : "https://metacpan.org/release/Task-BeLike-CSSON",
       "repository" : {
          "type" : "git",
          "url" : "https://github.com/Csson/p5-Task-BeLike-CSSON.git",
          "web" : "https://github.com/Csson/p5-Task-BeLike-CSSON"
       }
    },
-   "version" : "0.0003"
+   "version" : "0.0004"
 }
 
