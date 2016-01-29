@@ -19,4 +19,8 @@ doctype: weaver
 plugins:
   - +config: Author::CSSON
 
-  - +remove_plugin: Badges
+  - +replace_plugin: Badges
+    formats: html, markdown
+    badge:
+     - perl
+     - travis

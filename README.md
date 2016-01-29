@@ -2,6 +2,8 @@
 
 Task::BeLike::CSSON - Be like...
 
+![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Task-BeLike-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Task-BeLike-CSSON)
+
 # VERSION
 
 Version 0.0004, released 2016-01-29.
