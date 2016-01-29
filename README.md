@@ -6,23 +6,11 @@ Task::BeLike::CSSON - Be like...
 
 # VERSION
 
-Version 0.0004, released 2016-01-10.
+Version 0.0004, released 2016-01-29.
 
 # TASK CONTENTS
 
-## Stuff
-
-### [Archive::Tar::Wrapper](https://metacpan.org/pod/Archive::Tar::Wrapper)
-
-### [Authen::Passphrase](https://metacpan.org/pod/Authen::Passphrase)
-
-### [CAM::PDF](https://metacpan.org/pod/CAM::PDF)
-
-### [Class::XSAccessor](https://metacpan.org/pod/Class::XSAccessor)
-
-### [CLI::Helpers](https://metacpan.org/pod/CLI::Helpers)
-
-### [Config::Hash](https://metacpan.org/pod/Config::Hash)
+## Includes
 
 ### [Config::JSON](https://metacpan.org/pod/Config::JSON)
 
@@ -34,37 +22,19 @@ Version 0.0004, released 2016-01-10.
 
 ### [Data::Dump::Streamer](https://metacpan.org/pod/Data::Dump::Streamer)
 
+### [Data::Printer](https://metacpan.org/pod/Data::Printer)
+
 ### [Data::GUID](https://metacpan.org/pod/Data::GUID)
 
 ### [Data::UUID](https://metacpan.org/pod/Data::UUID)
 
 ### [DateTime](https://metacpan.org/pod/DateTime)
 
-### [DBD::mysql](https://metacpan.org/pod/DBD::mysql)
-
-### [DBI](https://metacpan.org/pod/DBI)
-
-### [DBIx::Class](https://metacpan.org/pod/DBIx::Class)
-
-### [DBIx::Class::Candy](https://metacpan.org/pod/DBIx::Class::Candy)
-
-### [DBIx::Class::Helpers](https://metacpan.org/pod/DBIx::Class::Helpers)
-
-### [DBIx::Class::EncodedColumn](https://metacpan.org/pod/DBIx::Class::EncodedColumn)
-
-### [DBIx::Class::InflateColumn::DateTime::Duration](https://metacpan.org/pod/DBIx::Class::InflateColumn::DateTime::Duration)
-
-### [DBIx::Class::InflateColumn::DateTime::WithTimeZone](https://metacpan.org/pod/DBIx::Class::InflateColumn::DateTime::WithTimeZone)
-
-### [DBIx::Class::Migration](https://metacpan.org/pod/DBIx::Class::Migration)
-
 ### [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla)
 
 ### [Dist::Zilla::Plugin::Authority](https://metacpan.org/pod/Dist::Zilla::Plugin::Authority)
 
 ### [Dist::Zilla::Plugin::ChangeStats::Git](https://metacpan.org/pod/Dist::Zilla::Plugin::ChangeStats::Git)
-
-### [Dist::Zilla::Plugin::EOLTests](https://metacpan.org/pod/Dist::Zilla::Plugin::EOLTests)
 
 ### [Dist::Zilla::Plugin::Git](https://metacpan.org/pod/Dist::Zilla::Plugin::Git)
 
@@ -96,23 +66,17 @@ Version 0.0004, released 2016-01-10.
 
 ### [File::ReadBackwards](https://metacpan.org/pod/File::ReadBackwards)
 
-### [Games::2048](https://metacpan.org/pod/Games::2048)
-
-### [GD](https://metacpan.org/pod/GD)
-
 ### [Kavorka](https://metacpan.org/pod/Kavorka)
 
 ### [Lexical::Var](https://metacpan.org/pod/Lexical::Var)
 
-### [List::AllUtils](https://metacpan.org/pod/List::AllUtils)
+### [List::Util](https://metacpan.org/pod/List::Util)
+
+### [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils)
 
 ### [Math::Round](https://metacpan.org/pod/Math::Round)
 
 ### [MetaCPAN::Clients](https://metacpan.org/pod/MetaCPAN::Clients)
-
-### [Method::Signatures](https://metacpan.org/pod/Method::Signatures)
-
-### [Minilla](https://metacpan.org/pod/Minilla)
 
 ### [Modern::Perl](https://metacpan.org/pod/Modern::Perl)
 
@@ -148,6 +112,8 @@ Version 0.0004, released 2016-01-10.
 
 ### [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
 
+### [Pod::Weaver](https://metacpan.org/pod/Pod::Weaver)
+
 ### [Pod::Weaver::Section::SeeAlso](https://metacpan.org/pod/Pod::Weaver::Section::SeeAlso)
 
 ### [PPI::HTML](https://metacpan.org/pod/PPI::HTML)
@@ -164,10 +130,6 @@ Version 0.0004, released 2016-01-10.
 
 ### [String::Trim](https://metacpan.org/pod/String::Trim)
 
-### [Syntax::Collection::Basic](https://metacpan.org/pod/Syntax::Collection::Basic)
-
-### [Syntax::Collector](https://metacpan.org/pod/Syntax::Collector)
-
 ### [Term::ANSIColor](https://metacpan.org/pod/Term::ANSIColor)
 
 ### [Term::ReadLine::Gnu](https://metacpan.org/pod/Term::ReadLine::Gnu)
@@ -182,7 +144,7 @@ Version 0.0004, released 2016-01-10.
 
 ### [Throwable::X](https://metacpan.org/pod/Throwable::X)
 
-### [ToolSet](https://metacpan.org/pod/ToolSet)
+### [Throwable::SugarFactory](https://metacpan.org/pod/Throwable::SugarFactory)
 
 ### [Type::Tiny](https://metacpan.org/pod/Type::Tiny)
 
@@ -191,8 +153,6 @@ Version 0.0004, released 2016-01-10.
 ### [Types::URI](https://metacpan.org/pod/Types::URI)
 
 ### [URI::Find](https://metacpan.org/pod/URI::Find)
-
-### [Variable::Magic](https://metacpan.org/pod/Variable::Magic)
 
 ### [CPAN::Changes](https://metacpan.org/pod/CPAN::Changes)
 
@@ -216,7 +176,9 @@ Version 0.0004, released 2016-01-10.
 
 ### [DateTime::Tiny](https://metacpan.org/pod/DateTime::Tiny)
 
-# SYNOPSIS
+### [Path::Tiny](https://metacpan.org/pod/Path::Tiny)
+
+## Not installed
 
     # or equivalent
     $ sudo apt-get install libssl-dev
@@ -237,7 +199,20 @@ Version 0.0004, released 2016-01-10.
     $ cpanm Compiler::Lexer
     $ cpanm Task::BeLike::CSSON
 
-# TASK CONTENTS
+- Archive::Tar::Wrapper
+- Authen::Passphrase
+- CAM::PDF
+- Class::XSAccessor
+- CLI::Helpers
+- DBD::mysql
+- DBI
+- DBIx::Class
+- DBIx::Class::Candy
+- DBIx::Class::Helpers
+- DBIx::Class::EncodedColumn
+- DBIx::Class::InflateColumn::DateTime::Duration
+- DBIx::Class::InflateColumn::DateTime::WithTimeZone
+- DBIx::Class::Migration
 
 # SOURCE
 
@@ -253,7 +228,7 @@ Erik Carlsson <info@code301.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 by Erik Carlsson.
+This software is copyright (c) 2016 by Erik Carlsson.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

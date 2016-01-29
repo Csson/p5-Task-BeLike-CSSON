@@ -1,7 +1,8 @@
+use 5.10.1;
 use strict;
 use warnings;
 
-package Task::BeLike::CSSON { }
+package Task::BeLike::CSSON;
 
 # VERSION
 # ABSTRACT: Be like...
@@ -12,42 +13,7 @@ __END__
 
 =pod
 
-=head1 SYNOPSIS
-
-    # or equivalent
-    $ sudo apt-get install libssl-dev
-    $ sudo apt-get install libgd2-xpm-dev
-    $ sudo apt-get install ncurses-dev
-    $ sudo apt-get install libreadline6 libreadline6-dev
-
-    $ git config --global user.email '...'
-    $ git config --global user.name '...'
-
-    # install mysql/mariadb, and
-    $ export DBD_TESTUSER=...
-    $ export DBD_TESTPASSWORD=...
-    $ export DBD_TESTDB=...
-
-    $ cpanm Class::Accessor
-    $ cpanm Devel::Declare::MethodInstaller::Simple
-    $ cpanm Compiler::Lexer
-    $ cpanm Task::BeLike::CSSON
-
-=head1 TASK CONTENTS
-
-=pkgroup Stuff
-
-=pkg Archive::Tar::Wrapper
-
-=pkg Authen::Passphrase
-
-=pkg CAM::PDF
-
-=pkg Class::XSAccessor
-
-=pkg CLI::Helpers
-
-=pkg Config::Hash
+=pkgroup Includes
 
 =pkg Config::JSON
 
@@ -59,37 +25,19 @@ __END__
 
 =pkg Data::Dump::Streamer
 
+=pkg Data::Printer
+
 =pkg Data::GUID
 
 =pkg Data::UUID
 
 =pkg DateTime
 
-=pkg DBD::mysql
-
-=pkg DBI
-
-=pkg DBIx::Class
-
-=pkg DBIx::Class::Candy
-
-=pkg DBIx::Class::Helpers
-
-=pkg DBIx::Class::EncodedColumn
-
-=pkg DBIx::Class::InflateColumn::DateTime::Duration
-
-=pkg DBIx::Class::InflateColumn::DateTime::WithTimeZone
-
-=pkg DBIx::Class::Migration
-
 =pkg Dist::Zilla
 
 =pkg Dist::Zilla::Plugin::Authority
 
 =pkg Dist::Zilla::Plugin::ChangeStats::Git
-
-=pkg Dist::Zilla::Plugin::EOLTests
 
 =pkg Dist::Zilla::Plugin::Git
 
@@ -121,23 +69,17 @@ __END__
 
 =pkg File::ReadBackwards
 
-=pkg Games::2048
-
-=pkg GD
-
 =pkg Kavorka
 
 =pkg Lexical::Var
 
-=pkg List::AllUtils
+=pkg List::Util
+
+=pkg List::MoreUtils
 
 =pkg Math::Round
 
 =pkg MetaCPAN::Clients
-
-=pkg Method::Signatures
-
-=pkg Minilla
 
 =pkg Modern::Perl
 
@@ -173,6 +115,8 @@ __END__
 
 =pkg Perl::Critic
 
+=pkg Pod::Weaver
+
 =pkg Pod::Weaver::Section::SeeAlso
 
 =pkg PPI::HTML
@@ -189,10 +133,6 @@ __END__
 
 =pkg String::Trim
 
-=pkg Syntax::Collection::Basic
-
-=pkg Syntax::Collector
-
 =pkg Term::ANSIColor
 
 =pkg Term::ReadLine::Gnu
@@ -207,7 +147,7 @@ __END__
 
 =pkg Throwable::X
 
-=pkg ToolSet
+=pkg Throwable::SugarFactory
 
 =pkg Type::Tiny
 
@@ -216,8 +156,6 @@ __END__
 =pkg Types::URI
 
 =pkg URI::Find
-
-=pkg Variable::Magic
 
 =pkg CPAN::Changes
 
@@ -241,4 +179,43 @@ __END__
 
 =pkg DateTime::Tiny
 
+=pkg Path::Tiny
+
+=head2 Not installed
+
+    # or equivalent
+    $ sudo apt-get install libssl-dev
+    $ sudo apt-get install libgd2-xpm-dev
+    $ sudo apt-get install ncurses-dev
+    $ sudo apt-get install libreadline6 libreadline6-dev
+
+    $ git config --global user.email '...'
+    $ git config --global user.name '...'
+
+    # install mysql/mariadb, and
+    $ export DBD_TESTUSER=...
+    $ export DBD_TESTPASSWORD=...
+    $ export DBD_TESTDB=...
+
+    $ cpanm Class::Accessor
+    $ cpanm Devel::Declare::MethodInstaller::Simple
+    $ cpanm Compiler::Lexer
+    $ cpanm Task::BeLike::CSSON
+
+
+=for :list
+* Archive::Tar::Wrapper
+* Authen::Passphrase
+* CAM::PDF
+* Class::XSAccessor
+* CLI::Helpers
+* DBD::mysql
+* DBI
+* DBIx::Class
+* DBIx::Class::Candy
+* DBIx::Class::Helpers
+* DBIx::Class::EncodedColumn
+* DBIx::Class::InflateColumn::DateTime::Duration
+* DBIx::Class::InflateColumn::DateTime::WithTimeZone
+* DBIx::Class::Migration
 =cut
