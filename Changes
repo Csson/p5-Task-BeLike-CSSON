@@ -1,10 +1,27 @@
 Revision history for Task-BeLike-CSSON
 
 {{$NEXT}}
-  - Use DZP::TaskWeaver instead of cpanfile
-  - Use Dist::Iller
-  - Fixed Kwalitee issues
-  - Some changes to content.
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+
+ [Enhancements]
+
+ [New Features]
+
+ [Other Changes]
+
+ [Requirements]
+
+ [Testing]
+
+0.0004 2016-01-29T22:09:24Z UTC
+ - Use DZP::TaskWeaver instead of cpanfile
+ - Use Dist::Iller
+ - Fixed Kwalitee issues
+ - Some changes to content.
 
 0.0003 2014-11-29T20:37:03Z CET
  [Documentation]
