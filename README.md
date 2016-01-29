@@ -36,7 +36,7 @@ Version 0.0004, released 2016-01-29.
 
 ### [MooseX::App](https://metacpan.org/pod/MooseX::App)
 
-### [MooseX::AttributeShortucts](https://metacpan.org/pod/MooseX::AttributeShortucts)
+### [MooseX::AttributeShortcuts](https://metacpan.org/pod/MooseX::AttributeShortcuts)
 
 ### [Path::Tiny](https://metacpan.org/pod/Path::Tiny)
 
@@ -59,8 +59,6 @@ Version 0.0004, released 2016-01-29.
 ### [Time::Moment](https://metacpan.org/pod/Time::Moment)
 
 ### [Type::Tiny](https://metacpan.org/pod/Type::Tiny)
-
-### [Type::Tiny::XS](https://metacpan.org/pod/Type::Tiny::XS)
 
 ## Not installed
 

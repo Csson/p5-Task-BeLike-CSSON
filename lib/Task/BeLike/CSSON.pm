@@ -41,7 +41,7 @@ __END__
 
 =pkg MooseX::App
 
-=pkg MooseX::AttributeShortucts
+=pkg MooseX::AttributeShortcuts
 
 =pkg Path::Tiny
 
@@ -64,8 +64,6 @@ __END__
 =pkg Time::Moment
 
 =pkg Type::Tiny
-
-=pkg Type::Tiny::XS
 
 =head2 Not installed
 

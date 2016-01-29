@@ -112,7 +112,7 @@
             "Moo" : "0",
             "Moose" : "0",
             "MooseX::App" : "0",
-            "MooseX::AttributeShortucts" : "0",
+            "MooseX::AttributeShortcuts" : "0",
             "Path::Tiny" : "0",
             "PerlX::Maybe" : "0",
             "Pod::Weaver" : "0",
@@ -123,7 +123,6 @@
             "Throwable::SugarFactory" : "0",
             "Time::Moment" : "0",
             "Type::Tiny" : "0",
-            "Type::Tiny::XS" : "0",
             "experimental" : "0",
             "perl" : "5.010001",
             "syntax" : "0"

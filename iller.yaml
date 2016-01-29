@@ -13,8 +13,6 @@ plugins:
  - +config: Author::CSSON
    is_task: 1
 
- - +remove_plugin: TravisYML
-
 ---
 doctype: weaver
 
