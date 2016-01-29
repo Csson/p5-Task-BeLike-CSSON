@@ -126,7 +126,7 @@
             "Time::Moment" : "0",
             "Type::Tiny" : "0",
             "experimental" : "0",
-            "perl" : "5.010001",
+            "perl" : "5.014000",
             "syntax" : "0"
          }
       },
