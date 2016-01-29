@@ -2,7 +2,7 @@
 
 Task::BeLike::CSSON - Be like...
 
-![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Task-BeLike-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Task-BeLike-CSSON)
+![Requires Perl 5.14+](https://img.shields.io/badge/perl-5.14+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Task-BeLike-CSSON.svg?branch=master)](https://travis-ci.org/Csson/p5-Task-BeLike-CSSON)
 
 # VERSION
 
