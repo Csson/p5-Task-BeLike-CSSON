@@ -1,7 +1,8 @@
 Revision history for Task-BeLike-CSSON
 
 {{$NEXT}}
- [API Changes]
+ [Meta]
+ - Rebuilt with current Dist::Zilla config
 
  [Bug Fixes]
 
