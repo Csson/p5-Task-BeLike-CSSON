@@ -4,8 +4,9 @@ use warnings;
 
 package Task::BeLike::CSSON;
 
-# VERSION
+our $VERSION = '0.0005';
 # ABSTRACT: Be like...
+# AUTHORITY
 
 1;
 
